@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class final Dog extends Pet {
+public final class  Dog extends Pet {
     private String name;
     private String breed;
     private String[] commands;
@@ -56,8 +56,7 @@ public class final Dog extends Pet {
     public void makeVoice(){
         System.out.println("Шум");
     }
-    @Override
-    public String getInfo(){
+    public String getInfo1(){
         return  super.getInfo() +
                 "\n Name: " + name +
                 "\n Breed: " + breed +
